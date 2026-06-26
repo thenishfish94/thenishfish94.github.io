@@ -105,17 +105,21 @@
       min-height: 580px;
     }
 
-    .hero-photo {
+   .hero-photo {
       overflow: hidden;
-      background: var(--parchment-mid);
+      background: #b8b8b8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .hero-photo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: top center;
+      width: 85%;
+      height: 85%;
+      object-fit: contain;
+      object-position: center center;
       display: block;
+      margin: auto;
     }
 
     .hero-photo-placeholder {
@@ -613,14 +617,7 @@
   <!-- HERO -->
   <section class="hero" aria-label="Introduction">
     <div class="hero-photo">
-      <!-- Replace the placeholder below with your actual photo:
-           1. Save your photo as "nish.jpg" in the same folder as this file
-           2. Delete the div.hero-photo-placeholder
-           3. Uncomment the img tag below -->
-      <!-- <img src="nish.jpg" alt="Nishat Ahmed"> -->
-      <div class="hero-photo-placeholder" aria-hidden="true">
-        <span>Your photo here</span>
-      </div>
+     <img src="nish.png" alt="Nishat Ahmed">
     </div>
     <div class="hero-text">
       <p class="hero-eyebrow">Poet &middot; Writer &middot; Strategist</p>
@@ -749,9 +746,7 @@
     <div class="section-label" id="contact-heading">Contact</div>
     <div>
       <p class="contact-intro">Available for bookings, commissions, collaborations, and whatever else you might need. Get in touch.</p>
-      <!-- FORMSPREE: Replace YOUR_FORM_ID below with your actual Formspree form ID -->
-      <!-- Sign up free at formspree.io, create a new form, and paste the ID here -->
-      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/Ymqevqyge" method="POST">
         <div class="form-row">
           <input type="text" name="name" placeholder="Your name" required>
           <input type="email" name="email" placeholder="Your email" required>
